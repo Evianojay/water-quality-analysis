@@ -10,24 +10,24 @@
 
 # 📋 Table of Contents
 
-* [Overview](#-overview)
-* [Why This Project?](#-why-this-project)
-* [Business Context](#-business-context)
-* [Stakeholders](#-stakeholders)
-* [Research Questions](#-research-questions)
-* [Analytical Objectives](#-analytical-objectives)
-* [Project Objectives](#-project-objectives)
-* [Dataset](#-dataset)
-* [Analytical Philosophy](#-analytical-philosophy)
-* [Project Structure](#-project-structure)
-* [Project Roadmap](#-project-roadmap)
-* [Success Criteria](#-success-criteria)
-* [Current Status](#-current-status)
-* [Technologies Used](#-technologies-used)
-* [Project Evolution](#-project-evolution)
-* [Getting Started](#-getting-started)
-* [License](#-license)
-* [About the Author](#-about-the-author)
+- [Overview](#-overview)
+- [Why This Project?](#-why-this-project)
+- [Business Context](#-business-context)
+- [Stakeholders](#-stakeholders)
+- [Research Questions](#-research-questions)
+- [Analytical Objectives](#-analytical-objectives)
+- [Project Objectives](#-project-objectives)
+- [Dataset](#-dataset)
+- [Analytical Philosophy](#-analytical-philosophy)
+- [Project Structure](#-project-structure)
+- [Project Roadmap](#-project-roadmap)
+- [Success Criteria](#-success-criteria)
+- [Current Status](#-current-status)
+- [Technologies Used](#-technologies-used)
+- [Project Evolution](#-project-evolution)
+- [Getting Started](#-getting-started)
+- [License](#-license)
+- [About the Author](#-about-the-author)
 
 ---
 
@@ -65,11 +65,11 @@ Although this project uses a publicly available dataset for educational purposes
 
 This analysis may be valuable to:
 
-* Public health organizations responsible for water safety.
-* Environmental scientists studying water quality.
-* Water treatment facilities seeking to understand important water quality indicators.
-* Government regulatory agencies responsible for monitoring drinking water standards.
-* Researchers and students interested in environmental data analysis.
+- Public health organizations responsible for water safety.
+- Environmental scientists studying water quality.
+- Water treatment facilities seeking to understand important water quality indicators.
+- Government regulatory agencies responsible for monitoring drinking water standards.
+- Researchers and students interested in environmental data analysis.
 
 ---
 
@@ -90,12 +90,12 @@ This project seeks to answer the following questions:
 
 The analysis aims to:
 
-* Assess the quality and completeness of the dataset.
-* Explore the distribution of physicochemical water quality measurements.
-* Investigate relationships between water quality indicators.
-* Compare potable and non-potable water samples.
-* Identify statistically meaningful patterns.
-* Communicate findings through clear visualizations and evidence-based interpretation.
+- Assess the quality and completeness of the dataset.
+- Explore the distribution of physicochemical water quality measurements.
+- Investigate relationships between water quality indicators.
+- Compare potable and non-potable water samples.
+- Identify statistically meaningful patterns.
+- Communicate findings through clear visualizations and evidence-based interpretation.
 
 ---
 
@@ -103,11 +103,11 @@ The analysis aims to:
 
 Beyond answering analytical questions, this project also aims to:
 
-* Demonstrate an industry-standard exploratory data analysis workflow.
-* Produce a fully reproducible analysis from raw data to final report.
-* Document every major analytical decision.
-* Communicate insights to both technical and non-technical audiences.
-* Build a portfolio project that reflects professional analytical thinking.
+- Demonstrate an industry-standard exploratory data analysis workflow.
+- Produce a fully reproducible analysis from raw data to final report.
+- Document every major analytical decision.
+- Communicate insights to both technical and non-technical audiences.
+- Build a portfolio project that reflects professional analytical thinking.
 
 ---
 
@@ -142,12 +142,12 @@ This project follows one guiding principle:
 
 Rather than jumping directly into predictive modeling, the workflow emphasizes:
 
-* Business understanding
-* Data understanding
-* Data quality assessment
-* Exploratory analysis
-* Statistical investigation
-* Clear communication of findings
+- Business understanding
+- Data understanding
+- Data quality assessment
+- Exploratory analysis
+- Statistical investigation
+- Clear communication of findings
 
 The objective is not only to produce accurate results, but also to ensure that every conclusion is transparent, reproducible, and supported by evidence.
 
@@ -163,10 +163,10 @@ water-quality-analysis/
 │   └── processed/
 │
 ├── notebooks/
-│   ├── 01_data_understanding.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_exploratory_analysis.ipynb
-│   ├── 04_statistical_analysis.ipynb
+│   └── 01_data_understanding.ipynb
+│
+│
+│
 │
 ├── reports/
 │   ├── figures/
@@ -187,16 +187,16 @@ water-quality-analysis/
 
 # 🗺️ Project Roadmap
 
-| Sprint   | Phase                        | Status         |
-| -------- | ---------------------------- | -------------- |
-| Sprint 1 | Business Understanding       | ✅ Complete     |
-| Sprint 2 | Data Understanding           | 🔄 In Progress |
-| Sprint 3 | Data Cleaning                | ⬜ Planned      |
-| Sprint 4 | Exploratory Data Analysis    | ⬜ Planned      |
-| Sprint 5 | Statistical Investigation    | ⬜ Planned      |
-| Sprint 6 | Insights & Recommendations   | ⬜ Planned      |
-| Sprint 7 | Optional Predictive Modeling | ⬜ Planned      |
-| Sprint 8 | Final Documentation          | ⬜ Planned      |
+| Sprint   | Phase                        | Status      |
+| -------- | ---------------------------- | ----------- |
+| Sprint 1 | Business Understanding       | ✅ Complete |
+| Sprint 2 | Data Understanding           | ✅ complete |
+| Sprint 3 | Data Cleaning                | 🔄 Next     |
+| Sprint 4 | Exploratory Data Analysis    | ⬜ Planned  |
+| Sprint 5 | Statistical Investigation    | ⬜ Planned  |
+| Sprint 6 | Insights & Recommendations   | ⬜ Planned  |
+| Sprint 7 | Optional Predictive Modeling | ⬜ Planned  |
+| Sprint 8 | Final Documentation          | ⬜ Planned  |
 
 ---
 
@@ -204,31 +204,47 @@ water-quality-analysis/
 
 The project will be considered successful if it:
 
-* Produces a complete and reproducible analytical workflow.
-* Documents every major analytical decision.
-* Clearly distinguishes observations from interpretations.
-* Supports conclusions with evidence rather than assumptions.
-* Presents findings that are understandable to both technical and non-technical audiences.
-* Provides practical recommendations while acknowledging the limitations of the analysis.
+- Produces a complete and reproducible analytical workflow.
+- Documents every major analytical decision.
+- Clearly distinguishes observations from interpretations.
+- Supports conclusions with evidence rather than assumptions.
+- Presents findings that are understandable to both technical and non-technical audiences.
+- Provides practical recommendations while acknowledging the limitations of the analysis.
 
 ---
 
 # 📌 Current Status
 
-**Current Phase:** Sprint 2 — Data Understanding
+**Current Phase:** Sprint 3 — Data Cleaning and Validation
 
-The current objective is to understand the dataset before making any modifications.
+The data understanding stage has been completed successfully.
 
-Activities currently in progress include:
+### Completed
 
-* Inspecting dataset dimensions.
-* Reviewing variable types.
-* Assessing missing values.
-* Identifying duplicate records.
-* Evaluating the target variable.
-* Documenting initial observations.
+- Loaded and inspected the raw dataset.
+- Assessed dataset dimensions and structure.
+- Reviewed variable types and memory usage.
+- Generated descriptive statistics for all variables.
+- Evaluated missing values across features.
+- Confirmed the absence of exact duplicate records.
+- Assessed the distribution of the target variable.
+- Documented analytical observations to guide subsequent cleaning.
 
-At this stage, **no changes have been made to the original dataset**.
+### Key Findings
+
+- The dataset contains **3,276 observations** and **10 variables**.
+- All variables are numerical.
+- Three variables contain missing values:
+  - Sulfate (23.84%)
+  - pH (14.99%)
+  - Trihalomethanes (4.95%)
+- Approximately **38.61%** of observations contain at least one missing value.
+- No exact duplicate records were identified.
+- The target variable is mildly imbalanced:
+  - **60.99% Not Potable**
+  - **39.01% Potable**
+
+The next stage will focus on cleaning missing values, validating variable ranges, and preparing the dataset for exploratory analysis while preserving analytical integrity..
 
 ---
 
@@ -249,16 +265,21 @@ At this stage, **no changes have been made to the original dataset**.
 
 # 🔄 Project Evolution
 
-Future iterations of this project will include:
+The project is being developed incrementally using a sprint-based analytical workflow.
 
-* Comprehensive exploratory data analysis.
-* Statistical hypothesis testing.
-* Correlation and relationship analysis.
-* Feature importance investigation.
-* Business-focused recommendations.
-* Optional predictive modeling.
-* A professionally formatted analytical report.
-* Interactive visualizations where appropriate.
+Completed so far:
+
+- ✅ Business Understanding
+- ✅ Data Understanding
+
+Upcoming work includes:
+
+- Data Cleaning and Validation
+- Exploratory Data Analysis
+- Statistical Investigation
+- Business-focused Recommendations
+- Optional Predictive Modeling
+- Final Analytical Report
 
 ---
 
@@ -266,9 +287,9 @@ Future iterations of this project will include:
 
 ## Prerequisites
 
-* Python 3.8 or later
-* Git
-* Jupyter Notebook
+- Python 3.8 or later
+- Git
+- Jupyter Notebook
 
 ## Installation
 
@@ -290,9 +311,15 @@ Create a virtual environment:
 python -m venv .venv
 ```
 
-Activate the environment.
+Activate the virtual environment:
 
-Install dependencies:
+**Windows (Git Bash)**
+
+```bash
+source .venv/Scripts/activate
+```
+
+Install the project dependencies:
 
 ```bash
 pip install -r requirements.txt
