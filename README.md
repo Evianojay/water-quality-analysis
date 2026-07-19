@@ -163,9 +163,9 @@ water-quality-analysis/
 │   └── processed/
 │
 ├── notebooks/
-│   └── 01_data_understanding.ipynb
-│
-│
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   └── 03_exploratory_data_analysis.ipynb (coming next)
 │
 │
 ├── reports/
@@ -185,14 +185,24 @@ water-quality-analysis/
 
 ---
 
+# 📓 Notebook Guide
+
+| Notebook                           | Purpose                                                                                                 |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 01_data_understanding.ipynb        | Initial inspection of the dataset, assessment of structure, quality, and completeness.                  |
+| 02_data_cleaning.ipynb             | Investigation of missingness, evidence-based imputation, validation, and export of the cleaned dataset. |
+| 03_exploratory_data_analysis.ipynb | Explore distributions, relationships, and patterns in the cleaned dataset. _(Upcoming)_                 |
+
+---
+
 # 🗺️ Project Roadmap
 
 | Sprint   | Phase                        | Status      |
 | -------- | ---------------------------- | ----------- |
 | Sprint 1 | Business Understanding       | ✅ Complete |
-| Sprint 2 | Data Understanding           | ✅ complete |
-| Sprint 3 | Data Cleaning                | 🔄 Next     |
-| Sprint 4 | Exploratory Data Analysis    | ⬜ Planned  |
+| Sprint 2 | Data Understanding           | ✅ Complete |
+| Sprint 3 | Data Cleaning                | ✅ Complete |
+| Sprint 4 | Exploratory Data Analysis    | 🔄 Next     |
 | Sprint 5 | Statistical Investigation    | ⬜ Planned  |
 | Sprint 6 | Insights & Recommendations   | ⬜ Planned  |
 | Sprint 7 | Optional Predictive Modeling | ⬜ Planned  |
@@ -213,38 +223,39 @@ The project will be considered successful if it:
 
 ---
 
-# 📌 Current Status
+## 📌 Current Status
 
-**Current Phase:** Sprint 3 — Data Cleaning and Validation
+**Current Phase:** Sprint 4 — Exploratory Data Analysis
 
-The data understanding stage has been completed successfully.
+The data cleaning and validation stage has been completed successfully.
 
 ### Completed
 
 - Loaded and inspected the raw dataset.
 - Assessed dataset dimensions and structure.
-- Reviewed variable types and memory usage.
-- Generated descriptive statistics for all variables.
-- Evaluated missing values across features.
-- Confirmed the absence of exact duplicate records.
-- Assessed the distribution of the target variable.
-- Documented analytical observations to guide subsequent cleaning.
+- Evaluated missing values and duplicate records.
+- Investigated missingness patterns before selecting an imputation strategy.
+- Compared the mean and median of variables with missing values.
+- Assessed skewness and outliers to support imputation decisions.
+- Applied evidence-based mean imputation.
+- Validated the cleaned dataset by verifying data types, missing values, duplicates, and dataset structure.
+- Exported a processed dataset for subsequent analysis.
 
 ### Key Findings
 
 - The dataset contains **3,276 observations** and **10 variables**.
-- All variables are numerical.
-- Three variables contain missing values:
+- Three variables originally contained missing values:
   - Sulfate (23.84%)
   - pH (14.99%)
   - Trihalomethanes (4.95%)
-- Approximately **38.61%** of observations contain at least one missing value.
-- No exact duplicate records were identified.
-- The target variable is mildly imbalanced:
-  - **60.99% Not Potable**
-  - **39.01% Potable**
 
-The next stage will focus on cleaning missing values, validating variable ranges, and preparing the dataset for exploratory analysis while preserving analytical integrity..
+- Approximately **38.61%** of observations contained at least one missing value.
+- Missingness investigations found no strong evidence of a systematic missingness pattern across the variables examined.
+- The distributions of pH, Sulfate, and Trihalomethanes were approximately symmetric with negligible skewness and relatively few outliers.
+- Mean imputation was selected based on empirical evidence rather than convention.
+- The cleaned dataset contains no missing values while preserving the original dataset structure.
+
+The next stage of the project will explore the distributions of water quality variables, compare potable and non-potable samples, investigate relationships among features, and identify patterns that may help explain water potability.
 
 ---
 
@@ -263,23 +274,25 @@ The next stage will focus on cleaning missing values, validating variable ranges
 
 ---
 
-# 🔄 Project Evolution
+## 🔄 Project Evolution
 
-The project is being developed incrementally using a sprint-based analytical workflow.
+The project is being developed incrementally using a sprint-based analytical workflow, with each stage building on the evidence gathered in the previous one.
 
-Completed so far:
+### Completed
 
 - ✅ Business Understanding
 - ✅ Data Understanding
+- ✅ Data Cleaning & Validation
 
-Upcoming work includes:
+### Upcoming
 
-- Data Cleaning and Validation
 - Exploratory Data Analysis
 - Statistical Investigation
-- Business-focused Recommendations
+- Insights & Recommendations
 - Optional Predictive Modeling
 - Final Analytical Report
+
+Each sprint is documented independently to ensure the workflow remains transparent, reproducible, and easy to follow from raw data to final conclusions.
 
 ---
 
